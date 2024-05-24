@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/eb5ab8a900.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header-img">
+      <div class="navi">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header-img">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p><span>Fullstack</span><br />Developer</p>
+          <h1>Hi, I'm <span>Sanjeev Kumar</span></h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------about-------------- -->
+    
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p class="hnm">
+              "I am a Second - Year Undergraduate student in the Department of
+              <span>Computer Science Engineering</span> at
+              <strong>SNS college of Technology</strong>
+              . I'm eager to explore the dynamic world of software development
+              and artificial intelligence. My portfolio showcases projects that
+              blend creativity and technical expertise, reflecting my commitment
+              to continuous learning and growth. Excited to contribute
+              meaningfully to the tech industry, I'm open to collaboration and
+              new opportunities. Let's connect and build something amazing
+              together!"
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Fullstack Development</span><br />Designing Web
+                  Interfaces
+                </li>
+                <li>
+                  <span>Problem Solving</span><br />Solving Algorithmic problems
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Self - Projects</span><br />Making and building projects
+                  on my own.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2022 - 26</span><br />SNS COLLEGE OF TECHNOLOGY</li>
+                <li><span>2022</span><br />Completed Class 12th</li>
+                <li><span>2020</span><br />Completed Class 10th</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------stats-------------- -->
+
+    <div id="stats">
+      <div class="container">
+        <h1 class="subtitle">Stats</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <h2>Academic Qualifications</h2>
+            <br />
+            <ul>
+              <li>2022 - 26<br />SNS COLLEGE OF TECHNOLOGY,COIMBATOR</li>
+              <br />
+              <li>2022<br />Class 12th</li>
+              <br />
+              <li>2020<br />Class 10th</li>
+            </ul>
+            <a
+              href="#"
+              target="_blank"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Technical Skills</h2>
+            <br />
+            <p>
+              Programming Languages: python | java | django(framwork) | HTML | CSS <br /><br />
+              Languages: ENGLISH| FRENCH | TAMIL <br /><br />
+              Softwares and libraries: Standard Template Library (STL) | MS
+              Office | VS Code | Git | Github
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-trophy"></i>
+            <h2>Achievement and Honors</h2>
+            <br />
+            <p>
+              
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------projects--------- -->
+
+    <div id="projects">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="worklist">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+          </div>
+          <div class="layer">
+            <h1>Portfolio Website | Self project</h1>
+            <p>
+              Developed a fully responsive website using HTML, CSS, Javascript
+              <a
+                href="#"
+                target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </p>
+            <br /><br /><br />
+            <h1>bus booking system | Self Project</h1>
+            <p>
+              Developed a smart bus booking system to solve difficulties in college bus management: 
+              <a href="#"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------contact-------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>sanjeevkumar27122004@gmail.com</p>
+            <div class="socialicons">
+              <a
+                href="#"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a
+              href="#"
+              target="_blank"
+              class="button2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your E-mail"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="button2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Sanjeev Kumar S</p>
+      </div>
+    </div>
+
+    <!-- -------------javascipt-------------- -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxkNXJ6Sahws0zg4VyxRTFYqEAVKM3bv9th3pQ3PVnOQ5rv0IxBUk0ArVFaAlcqPd_G/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = " ";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
